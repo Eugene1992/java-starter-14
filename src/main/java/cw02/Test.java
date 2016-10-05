@@ -37,5 +37,11 @@ public class Test {
         i3 = 1000;
 
         i3 = i3 + 30;
+
+        int k1 = 10;
+        int k2 = 20;
+        k2 = k2 + k1;
+        k1 = k2 - k1;
+
     }
 }

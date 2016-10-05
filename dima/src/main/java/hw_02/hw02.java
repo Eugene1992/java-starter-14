@@ -28,7 +28,7 @@ public class hw02 {
         kot = bot;
 
         int zx=2,xc=3;
-
+        //test
 
     }
 }

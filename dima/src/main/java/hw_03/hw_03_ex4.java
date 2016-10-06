@@ -1,4 +1,5 @@
 package hw_03;
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -15,11 +16,14 @@ public class hw_03_ex4 {
         System.out.println("Введите 3 число");
         int c = sc.nextInt();
 
-        if(a>b){
-            if(a>c)
-            System.out.println(a + " - Найбольшее число ");
-        }else if(b>c){
+        if (a > b) {
+            if (a > c) {
+                System.out.println(a + " - Найбольшее число ");
+            }
+        } else if (b > c) {
             System.out.println(b + " - Найбольшее число ");
-        }else System.out.println(c + " - Найбольшее число ");
+        } else {
+            System.out.println(c + " - Найбольшее число ");
+        }
     }
 }

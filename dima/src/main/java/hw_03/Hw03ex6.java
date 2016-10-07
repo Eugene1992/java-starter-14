@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by dimon on 05.10.2016.
  */
-public class hw_03_ex6 {
+public class Hw03ex6 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

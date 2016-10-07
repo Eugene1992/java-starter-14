@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * Created by dimon on 05.10.2016.
  */
-public class hw_03_ex4 {
+public class Hw03ex4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите 1 число");

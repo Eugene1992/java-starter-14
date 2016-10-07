@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by dimon on 05.10.2016.
  */
-public class hw_03_ex8 {
+public class Hw03ex8 {
     public static void main(String[] args) {
         System.out.println("Введите предпочитаемое число");
         Scanner sc = new Scanner(System.in);

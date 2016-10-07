@@ -25,14 +25,16 @@ public class Hw4Ex6 {
                 for (; a > 0; a /= 2) {
                     result = a % 2 + result;
                 }
-                System.out.println(result);break;
-            case 2:for(; a > 0; a /= 8){
-                if(a %8 <= 7 & a %8 >=0)
-                    result = result +  (a % 8);
-            }
-                System.out.println(result);break;
-
-            }
+                System.out.println(result);
+                break;
+            case 2:
+                for (; a > 0; a /= 8) {
+                    if (a % 8 <= 7 & a % 8 >= 0)
+                        result = a % 8 + result;
+                }
+                System.out.println(result);
+                break;
         }
     }
+}
 

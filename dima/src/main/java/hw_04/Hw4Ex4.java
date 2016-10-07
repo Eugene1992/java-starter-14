@@ -5,11 +5,8 @@ package hw_04;
  */
 public class Hw4Ex4 {
     public static void main(String[] args) {
-        int b = 2;
-        for (int a = 0; a < 20; a++) {
-            b = b * 2;
+        for (int a = 0, b = 2; a < 20; a++, b *= 2) {
             System.out.println(b);
-
         }
     }
 }

@@ -6,7 +6,7 @@ package hw_06;
 public class Hw6 {
     public static void main(String[] args) {
 
-        System.out.println(fib(6));
+        System.out.println(fib(5));
 
     }
 
@@ -68,14 +68,12 @@ public class Hw6 {
                 System.out.print(i + " ");
             }
         }
-
-
     }
-//Зона Зла(Рекурсия) . Х3 работает или нет
+
+    //Зона Зла(Рекурсия) . Х3 работает или нет
     static int fib(int n) {
-        if (n == 1 || n == 2) {
-            return 1;
-        }
+        System.out.print(n + " ");
+        if (n < 2) return n;
         return fib(n - 1) + fib(n - 2);
     }
 }

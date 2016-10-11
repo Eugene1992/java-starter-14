@@ -11,7 +11,7 @@ package hw_05;
 public class Hw05Ex1 {
     public static void main(String[] args) {
         int kol = 0;
-        for (int i = 120300; i < 1000000;i++ ) {
+        for (int i = 0; i < 1000000;i++ ) {
             int num1 = i / 100000;
             int num2 = (i / 10000) % 10;
             int num3 = (i / 1000) % 10 % 10;
@@ -21,7 +21,6 @@ public class Hw05Ex1 {
 
             if (num1 + num2 + num3 == num4 + num5 + num6) {
                 kol++;
-
             }
         }
         System.out.println(kol);

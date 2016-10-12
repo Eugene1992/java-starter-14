@@ -3,8 +3,20 @@
  */
 public class cw08 {
     public static void main(String[] args) {
-        System.out.println(compare("Halo", "Text"));
+        System.out.println(equals("TExt", "Text"));
+        System.out.println(equals("Text", "Text"));
+        System.out.println(equals("Text", "Textt"));
 
+    }
+
+    static boolean equals(String first, String second) {
+        if (first.length() != second.length()) return false;
+        char[] firstChars = first.toCharArray();
+        char[] secondChars = second.toCharArray();
+        for (int i = 0; i < firstChars.length; i++) {
+            if (firstChars[i] != secondChars[i]) return false;
+        }
+        return true;
     }
 
     static boolean compare(String s, String s1) {
